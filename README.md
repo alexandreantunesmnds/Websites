@@ -1,5 +1,5 @@
 # Websites
-Réalisations en HTML/CSS :
+Réalisations HTML/CSS :
 
 ![image](https://user-images.githubusercontent.com/90969081/168393979-c0c71abf-7732-44fe-baf8-a51d6dbacb9d.png)
 
