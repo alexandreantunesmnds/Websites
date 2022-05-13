@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <title>Race registration</title>
+  </head> 
+  <body>
+    <h1>Race Registration!</h1>
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">First name: </label>
+          <input type="text" name="name" id="name" required>
+          <label for="lname">Last name: </label>
+          <input type="text" name="lname" id="lname" required>
+        </div>
+        <p>Select a race:</p>
+        <div class="form-example">
+            <div>
+                <input type="radio" id="fun" name="race" value="fun">
+                <label for="fun">Fun Race 5k</label>
+              </div>
+              
+              <div>
+                <input type="radio" id="half" name="race" value="half">
+                <label for="half">Half Marathon</label>
+              </div>
+              
+              <div>
+                <input type="radio" id="full" name="race" value="full">
+                <label for="full">Full Marathon</label>
+              </div>
+        </div>
+        <div class="form-example">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass" required>
+        </div>
+        <div class="form-example">
+            <label for="age-select">Select Age Group:</label>
+            <select name="age" id="age-select">
+                <option value="18-">Under 18</option>
+                <option value="18">18-30</option>
+                <option value="30">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Register!">
+          </div>
+      </form>
+  </body>
+</html>
